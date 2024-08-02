@@ -1,0 +1,60 @@
+body {
+    background-image: url(image/wallpaper_estante\ original.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 600px;
+    padding: 20px;
+    margin: auto;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h4 {
+    color: white;
+}
+
+label {
+    background-color: rgb(173, 173, 116);
+    width: 100px;
+    height: px;
+    color: white;
+    display: block;
+}
+
+input {
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;  
+}
+
+label, textarea {
+    border-radius: 10px;
+    padding: 8px;
+    margin-top: 16px;
+    margin-bottom: 5px;
+}
+
+textarea {
+    width: 100%;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: rgb(159, 158, 158);
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 550px;
+}
+
+button:hover {
+    background-color: rgb(173, 173, 116);
+    color: white;
+}

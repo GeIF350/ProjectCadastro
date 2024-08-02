@@ -1,0 +1,12 @@
+body {
+    background-color: azure;
+}
+
+.video {
+    text-align: center;
+}
+
+video {
+    width: 600px;
+    height: 350px;
+}

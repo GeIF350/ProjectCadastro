@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Cadastro2</title>
+</head>
+<body>
+    <h1>Formulário de Contrato</h1>
+    <form action="submit" method="post">
+
+        <label for="name">Nome:</label>
+        <input type="text" id="name" required maxlength="50" minlength="2" placeholder="Digite seu nome">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required placeholder="Ex: seunome@domínio.com">
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" name="Telefone" pattern="([0-9{2}])-[0-9]{4,5}-[0-9]{4}" placeholder="Ex: (00) 1111-2222" required>
+
+        <label for="age">Idade:</label>
+        <input type="number" name="age" id="age" min="18" max="100" required placeholder="Digite sua idade">
+
+        <h4>Linguagem preferida</h4>
+        <label for="html">HTML</label>
+        <input type="radio" name="favLanguage" value="html" id="html">
+
+        <label for="css">CSS</label>
+        <input type="radio" name="favLanguage" value="css" id="css">
+
+        <label for="javascript">JAVASCRIPT</label>
+        <input type="radio" name="favLanguage" value="javascript" id="javascript">
+
+        <label for="message">Mensagem:</label>
+        <textarea name="message" id="message" rows="5" maxlength="10" placeholder="Digite sua mensagem"></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
